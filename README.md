@@ -12,3 +12,9 @@ git clone https://github.com/riscv-non-isa/riscv-arch-test
 ```
 
 4. The log of each tests is debug.txt which will be found in gem5_test/
+<br>
+update_answer_*.py: A script that will update correct answers to input test file (currently only available for fcvt.l.s)
+
+```bash
+update_answer_fcvt.l.s.py ./riscv-arch-test/riscv-test-suite/rv64i_m/F/src/fcvt.l.s_b1-01.S
+```
