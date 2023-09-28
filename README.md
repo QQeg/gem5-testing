@@ -18,7 +18,7 @@
     ```
    2. Use __test_v.sh__ for imperas V testsuite
     ```bash
-    ./test.sh Vi
+    ./test_v.sh Vi
     ```
 
 4. The log of each tests is debug.txt which will be found in log/ after running test.sh/test_v.sh
